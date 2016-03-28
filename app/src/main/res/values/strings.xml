@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RideMe</string>
+    <string name="action_settings">Settings</string>
+    <string name="startLocation">Start Journey:</string>
+    <string name="endLocation">End Journey:</string>
+    <string name="go">Go!</string>
+    <string name="locationWasNull">Location was null</string>
+    <string name="service_is_not_available">Service is not available</string>
+    <string name="invalid_latitude_and_or_longitude">Invalid latitude and/or longitude.</string>
+    <string name="no_address_found">No address found.</string>
+    <string name="title_activity_results">Available Services</string>
+    <string name="action_about">About</string>
+
+    <string name="book">Book</string>
+    <string name="pickup_location">From: </string>
+    <string name="drop_off">To: </string>
+    <string name="capacity">Capacity: </string>
+    <string name="service_type">Service Type:</string>
+    <string name="title_activity_route">Route Details</string>
+    <string name="hint_start_journey">From</string>
+    <string name="hint_end_journey">To</string>
+    <string name="pref_unit_system_key">pref_unit_system_key</string>
+    <string name="pref_title_unit_system">Unit System</string>
+    <string name="pref_dialog_title_unit_system">Unit System</string>
+    <string name="pref_radius_key">pref_radius_key</string>
+    <string name="pref_title_radius">Radius to look for a taxi company</string>
+    <string name="pref_dialog_title_radius">Radius to look for a taxi company</string>
+    <string name="current_location">Current location.</string>
+    <string name="pref_order_list_key">pref_order_list_key</string>
+    <string name="rating_taxi_stand">Rating: </string>
+    
+    <string name="uberX_description">Everyday cars for everyday use. Better, faster, and cheaper than a taxi.</string>
+    <string name="uber_black_description">Your own private driver, on demand. Expect pickup in a high-end sedan within minutes.</string>
+    <string name="uber_XL_description">For those times when you need a bit more space. Seats up to six people in style.</string>
+    <string name="unknown">Unknown</string>
+    <string name="minutes">" minutes"</string>
+    <string name="minute">" minute"</string>
+    <string name="passengers">" passengers"</string>
+    <string name="passenger">" passenger"</string>
+    <string name="uber_url_available_locations">https://www.uber.com/cities</string>
+    <string name="taxifarefinder_url_availabled_locations">http://www.taxifarefinder.com/#index-supportedCities</string>
+    <string name="pref_order_results_by_price">Order Results by Price</string>
+
+    <string-array name="entries">
+        <item>Metric</item>
+        <item>Imperial</item>
+    </string-array>
+
+    <string-array name="entries_values">
+        <item>metric</item>
+        <item>imperial</item>
+    </string-array>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="show_map">Show Map</string>
+    <string name="hide_map">Hide Map</string>
+    <string name="priceTransition">priceTransition</string>
+    <string name="pref_feedback">pref_feedback</string>
+
+
+</resources>

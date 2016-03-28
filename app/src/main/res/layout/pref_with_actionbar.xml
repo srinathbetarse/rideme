@@ -1,0 +1,18 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Add the toolbar !-->
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/toolbar"/>
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_below="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

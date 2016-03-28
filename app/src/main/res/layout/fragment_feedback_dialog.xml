@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="10dp"
+              tools:context="com.dazito.android.rideme.gui.fragments.FeedbackDialogFragment">
+
+    <include
+        android:id="@+id/feedbackDialogTopBar"
+        layout="@layout/feedback_dialog_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/nameTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:gravity="center"
+                android:text="Name: "
+                android:textColor="@color/ridemePrimaryTextColor"/>
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:ems="10"
+                android:inputType="textPersonName"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/emailTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:gravity="center"
+                android:text="Email: "
+                android:textColor="@color/ridemePrimaryTextColor"/>
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:hint="Optional"
+                android:inputType="textEmailAddress"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/yourFeedback"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:gravity="center"
+                android:text="Feedback: "
+                android:textColor="@color/ridemePriceTextColor"/>
+
+            <EditText
+                android:id="@+id/message"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:textColor="@color/ridemePrimaryTextColor"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>

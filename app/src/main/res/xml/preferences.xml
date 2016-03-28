@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="General Settings"
+        android:key="pref_general_settings">
+
+    <ListPreference
+        android:key="@string/pref_unit_system_key"
+        android:title="@string/pref_title_unit_system"
+        android:summary="%s"
+        android:dialogTitle="@string/pref_dialog_title_unit_system"
+        android:entries="@array/entries"
+        android:entryValues="@array/entries_values"
+        android:defaultValue="metric" />
+    </PreferenceCategory>
+
+    <EditTextPreference android:key="@string/pref_radius_key"
+                        android:title="@string/pref_title_radius"
+                        android:summary="Max Distance "
+                        android:inputType="numberDecimal"
+                        android:defaultValue="10000"
+                        android:dialogTitle="@string/pref_dialog_title_radius" />
+
+    <CheckBoxPreference
+        android:key="@string/pref_order_list_key"
+        android:title="@string/pref_order_results_by_price"
+        android:defaultValue="false"/>
+
+    <Preference
+        android:key="@string/pref_feedback"
+        android:summary="Help us improving the app."
+        android:title="Feedback"
+        android:fragment="com.dazito.android.rideme.gui.fragments.FeedbackDialogFragment"/>
+</PreferenceScreen>

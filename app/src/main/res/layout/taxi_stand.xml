@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="10dp"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/taxiStandName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/ridemePrimaryTextColor"/>
+
+    <TextView
+        android:id="@+id/taxiStandPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/taxiStandName"
+        android:textColor="@color/ridemeSecundaryTextColor"/>
+
+
+    <TextView
+        android:id="@+id/taxiStandRateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rating_taxi_stand"
+        android:layout_below="@id/taxiStandPhone"/>
+
+    <TextView
+        android:id="@+id/taxiStandRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/ridemeSecundaryTextColor"
+        android:layout_toRightOf="@+id/taxiStandRateText"
+        android:layout_below="@id/taxiStandPhone"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
+

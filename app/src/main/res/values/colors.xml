@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Contains all the colors we are using in the app !-->
+    <!--
+    <color name="ridemePrimaryBackgroundColor">@color/md_blue_500</color>
+    <color name="ridemeSecundaryBackgroundColor">@color/md_blue_700</color>
+    <color name="ridemeColorBackgroundAccent">@color/md_blue_500</color>
+    <color name="ridemeBackgroundColor">@color/md_grey_200</color>
+    <color name="ridemePrimaryTextColor">@color/md_white_1000</color>
+    <color name="ridemeSecundaryTextColor">@color/md_indigo_900</color> !-->
+
+    <color name="ridemeServiceTypeTextColor">@color/md_green_700</color>
+    <color name="ridemeDurationTextColor">@color/md_green_500</color>
+    <color name="ridemeDistanceColor">@color/md_green_500</color>
+    <color name="ridemePriceTextColor">#000</color>
+
+
+    <color name="ridemePrimaryBackgroundColor">#03A9F4</color>
+    <color name="ridemeSecundaryBackgroundColor">#0288D1</color>
+    <color name="ridemeColorBackgroundAccent">#8BC34A</color>
+    <color name="ridemeBackgroundColor">@color/md_grey_200</color>
+    <color name="ridemeDividerColor">#B6B6B6</color>
+    <color name="ridemeToolbarTextColor">@color/md_white_1000</color>
+    <color name="ridemePrimaryTextColor">#212121</color>
+    <color name="ridemeSecundaryTextColor">#727272</color>
+
+    <color name="ridemeMapPressedButton">@color/md_grey_300</color>
+
+
+<!--
+    <color name="primary">#03A9F4</color>
+    <color name="primary_dark">#0288D1</color>
+    <color name="primary_light">#B3E5FC</color>
+    <color name="accent">#8BC34A</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+
+!-->
+</resources>
