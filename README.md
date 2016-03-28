@@ -2,7 +2,7 @@
 *A taxi price comparison Android App*
 
 This was a side project I had from late December 2014 to early 2015. The idea was to build an Android app, in general, to:
-- Compare the fare prices to go from point A to point B using a taxi or a Uber/ride sharing company
+- Compare the fare prices to go from point A to point B using a taxi or an Uber/ride sharing company
 - Book the ride within the app or open the appropiated app to book the ride
  
 Due to the lack of time, other side projects and a shift in priorities I have no time to keep working on this project. It has been hibernated for way too long.
